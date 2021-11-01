@@ -3567,24 +3567,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\OEM\\.nuget\\packages\\": {},
-    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\GGPC\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\OEM\\Desktop\\TuwharetoaMap\\TRAM\\TRAM\\TRAM.Android\\TRAM.Android.csproj",
+      "projectUniqueName": "C:\\Users\\GGPC\\OneDrive\\Desktop\\TuwharetoaMap\\TRAM\\TRAM\\TRAM.Android\\TRAM.Android.csproj",
       "projectName": "TRAM.Android",
-      "projectPath": "C:\\Users\\OEM\\Desktop\\TuwharetoaMap\\TRAM\\TRAM\\TRAM.Android\\TRAM.Android.csproj",
-      "packagesPath": "C:\\Users\\OEM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\OEM\\Desktop\\TuwharetoaMap\\TRAM\\TRAM\\TRAM.Android\\obj\\",
+      "projectPath": "C:\\Users\\GGPC\\OneDrive\\Desktop\\TuwharetoaMap\\TRAM\\TRAM\\TRAM.Android\\TRAM.Android.csproj",
+      "packagesPath": "C:\\Users\\GGPC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GGPC\\OneDrive\\Desktop\\TuwharetoaMap\\TRAM\\TRAM\\TRAM.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "D:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\OEM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\GGPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -3598,8 +3601,8 @@
       "frameworks": {
         "monoandroid10.0": {
           "projectReferences": {
-            "C:\\Users\\OEM\\Desktop\\TuwharetoaMap\\TRAM\\TRAM\\TRAM\\TRAM.csproj": {
-              "projectPath": "C:\\Users\\OEM\\Desktop\\TuwharetoaMap\\TRAM\\TRAM\\TRAM\\TRAM.csproj"
+            "C:\\Users\\GGPC\\OneDrive\\Desktop\\TuwharetoaMap\\TRAM\\TRAM\\TRAM\\TRAM.csproj": {
+              "projectPath": "C:\\Users\\GGPC\\OneDrive\\Desktop\\TuwharetoaMap\\TRAM\\TRAM\\TRAM\\TRAM.csproj"
             }
           }
         }

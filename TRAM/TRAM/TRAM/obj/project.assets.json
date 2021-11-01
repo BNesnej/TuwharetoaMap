@@ -726,25 +726,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\OEM\\.nuget\\packages\\": {},
-    "D:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\GGPC\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\OEM\\Desktop\\TuwharetoaMap\\TRAM\\TRAM\\TRAM\\TRAM.csproj",
+      "projectUniqueName": "C:\\Users\\GGPC\\OneDrive\\Desktop\\TuwharetoaMap\\TRAM\\TRAM\\TRAM\\TRAM.csproj",
       "projectName": "TRAM",
-      "projectPath": "C:\\Users\\OEM\\Desktop\\TuwharetoaMap\\TRAM\\TRAM\\TRAM\\TRAM.csproj",
-      "packagesPath": "C:\\Users\\OEM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\OEM\\Desktop\\TuwharetoaMap\\TRAM\\TRAM\\TRAM\\obj\\",
+      "projectPath": "C:\\Users\\GGPC\\OneDrive\\Desktop\\TuwharetoaMap\\TRAM\\TRAM\\TRAM\\TRAM.csproj",
+      "packagesPath": "C:\\Users\\GGPC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GGPC\\OneDrive\\Desktop\\TuwharetoaMap\\TRAM\\TRAM\\TRAM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\OEM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\GGPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -757,6 +758,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "projectReferences": {}
         }
       },
@@ -768,6 +770,7 @@
     },
     "frameworks": {
       "netstandard2.0": {
+        "targetAlias": "netstandard2.0",
         "dependencies": {
           "AWSSDK.Core": {
             "target": "Package",
@@ -802,7 +805,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
