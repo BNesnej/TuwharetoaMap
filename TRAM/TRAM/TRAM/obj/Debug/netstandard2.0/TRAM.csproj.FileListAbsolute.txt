@@ -1,0 +1,7 @@
+C:\Users\OEM\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\bin\Debug\netstandard2.0\TRAM.deps.json
+C:\Users\OEM\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\bin\Debug\netstandard2.0\TRAM.dll
+C:\Users\OEM\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\TRAM.csprojAssemblyReference.cache
+C:\Users\OEM\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\OEM\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\OEM\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\TRAM.AssemblyInfoInputs.cache
+C:\Users\OEM\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\TRAM.AssemblyInfo.cs
