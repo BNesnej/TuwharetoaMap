@@ -27,10 +27,6 @@ namespace TRAM.Pages
         {
             await Navigation.PushAsync(new Home());
         }
-        private async void AccountClicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new Account());
-        }
         private async void MapClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Map());

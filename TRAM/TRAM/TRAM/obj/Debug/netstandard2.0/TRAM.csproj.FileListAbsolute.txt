@@ -18,14 +18,9 @@ C:\Users\OEM\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\TRAM.
 C:\Users\OEM\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\TRAM.csprojAssemblyReference.cache
 C:\Users\OEM\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\TRAM.csproj.CoreCompileInputs.cache
 C:\Users\OEM\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\TRAM.csproj.AssemblyReference.cache
 C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\TRAM.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\TRAM.dll
-C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\ref\TRAM.dll
-C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\TRAM.pdb
 C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\Pages\Account.xaml.g.cs
 C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\Pages\Home.xaml.g.cs
 C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\Pages\Login.xaml.g.cs
 C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\Pages\Map.xaml.g.cs
@@ -34,6 +29,10 @@ C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandar
 C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\TRAM.AssemblyInfoInputs.cache
 C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\TRAM.AssemblyInfo.cs
 C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\TRAM.csproj.CoreCompileInputs.cache
+C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\TRAM.csproj.AssemblyReference.cache
+C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\TRAM.dll
+C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\ref\TRAM.dll
+C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\obj\Debug\netstandard2.0\TRAM.pdb
 C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\bin\Debug\netstandard2.0\TRAM.deps.json
 C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\bin\Debug\netstandard2.0\TRAM.dll
 C:\Users\GGPC\OneDrive\Desktop\TuwharetoaMap\TRAM\TRAM\TRAM\bin\Debug\netstandard2.0\ref\TRAM.dll

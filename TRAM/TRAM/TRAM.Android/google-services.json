@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "259735158270",
+    "project_id": "tuwharetoamaps",
+    "storage_bucket": "tuwharetoamaps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259735158270:android:034f2d88560862a2ffd4af",
+        "android_client_info": {
+          "package_name": "com.companyname.tram"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8TABSPL3uMBd14YdMYXtWGB5gTVu3-XQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

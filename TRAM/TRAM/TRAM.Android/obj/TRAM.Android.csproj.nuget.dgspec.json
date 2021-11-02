@@ -56,6 +56,10 @@
               "target": "Package",
               "version": "[5.0.0.2196, )"
             },
+            "Xamarin.GooglePlayServices.Auth": {
+              "target": "Package",
+              "version": "[119.2.0.1, )"
+            },
             "Xamarin.GooglePlayServices.Maps": {
               "target": "Package",
               "version": "[117.0.1.1, )"
@@ -110,11 +114,23 @@
               "target": "Package",
               "version": "[3.7.3.28, )"
             },
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.55.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Xamarin.Auth": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Auth.XamarinForms": {
+              "target": "Package",
+              "version": "[1.7.0, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

@@ -7,6 +7,9 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Android.Content;
+using Android.Gms.Auth.Api.SignIn;
+using Android.Gms.Auth.Api;
 
 namespace TRAM.Droid
 {
@@ -30,6 +33,7 @@ namespace TRAM.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            global::Xamarin.Auth.Presenters.XamarinAndroid.AuthenticationConfiguration.Init(this, savedInstanceState);
             Xamarin.FormsMaps.Init(this, savedInstanceState);
             LoadApplication(new App());
         }

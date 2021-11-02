@@ -21,10 +21,19 @@
     <!-- Needs to be explicitly declared on Android R+ -->
     <package android:name="com.google.android.apps.maps" />
   </queries>
-  <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/icon" android:label="TRAM.Android" android:theme="@style/MainTheme">
+  <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@drawable/mappointer" android:label="TRAM.Android" android:theme="@style/MainTheme" android:usesCleartextTraffic="true">
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
     <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyDL5NjWwztJj0O0AHHiXVfPiiwuDk9tmPY" />
     <uses-library android:name="org.apache.http.legacy" android:required="false" />
+    <activity android:name="crc64e673269c0b53447b.CustomUrlSchemeInterceptorActivity" android:label="CustomUrlSchemeInterceptorActivity" android:launchMode="singleTop" android:noHistory="true">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:path="/oauth2redirect" />
+        <data android:scheme="com.googleusercontent.apps.259735158270-2dtj3i6souo4r8n7ng05oaebnc2ge852" />
+      </intent-filter>
+    </activity>
     <activity android:name="crc64e673269c0b53447b.MainActivity" android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icon" android:label="TRAM" android:theme="@style/MainTheme">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
@@ -32,6 +41,11 @@
       </intent-filter>
     </activity>
     <service android:name="crc64396a3fe5f8138e3f.KeepAliveService" />
+    <activity android:name="crc64f98dd38067c0c88b.FormAuthenticatorActivity" android:label="Web Authenticator" />
+    <activity android:name="crc64f98dd38067c0c88b.WebAuthenticatorActivity" android:label="Web Authenticator" />
+    <activity android:name="crc64f98dd38067c0c88b.WebViewActivity" android:label="@string/title_activity_webview" android:theme="@android:style/Theme.DeviceDefault" />
+    <activity android:name="crc64f98dd38067c0c88b.WebAuthenticatorNativeBrowserActivity" android:label="Web Authenticator Native Browser" android:launchMode="singleTop" />
+    <receiver android:name="crc64f98dd38067c0c88b.CustomTabsActionsBroadcastReceiver" />
     <receiver android:name="crc64a0e0a82d0db9a07d.BatteryBroadcastReceiver" android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" />
     <receiver android:name="crc64a0e0a82d0db9a07d.EnergySaverBroadcastReceiver" android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" />
     <receiver android:name="crc64a0e0a82d0db9a07d.ConnectivityBroadcastReceiver" android:enabled="true" android:exported="false" android:label="Essentials Connectivity Broadcast Receiver" />
@@ -43,5 +57,11 @@
     <receiver android:name="crc643f46942d9dd1fff9.PowerSaveModeBroadcastReceiver" android:enabled="true" android:exported="false" />
     <provider android:name="mono.MonoRuntimeProvider" android:authorities="com.companyname.tram.mono.MonoRuntimeProvider.__mono_init__" android:exported="false" android:initOrder="1999999999" />
     <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    <activity android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:excludeFromRecents="true" android:exported="false" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+    <service android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:exported="true" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:visibleToInstantApps="true" />
   </application>
 </manifest>

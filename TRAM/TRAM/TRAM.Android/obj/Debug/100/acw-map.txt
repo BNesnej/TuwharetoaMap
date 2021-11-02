@@ -1,6 +1,12 @@
+TRAM.Droid.CustomUrlSchemeInterceptorActivity, TRAM.Android;crc64e673269c0b53447b.CustomUrlSchemeInterceptorActivity
+TRAM.Droid.CustomUrlSchemeInterceptorActivity;crc64e673269c0b53447b.CustomUrlSchemeInterceptorActivity
+tram.droid.CustomUrlSchemeInterceptorActivity;crc64e673269c0b53447b.CustomUrlSchemeInterceptorActivity
 TRAM.Droid.MainActivity, TRAM.Android;crc64e673269c0b53447b.MainActivity
 TRAM.Droid.MainActivity;crc64e673269c0b53447b.MainActivity
 tram.droid.MainActivity;crc64e673269c0b53447b.MainActivity
+TRAM.Droid.CustomRenderer.MyEntryRenderer, TRAM.Android;crc64fdeedb4013e2c79d.MyEntryRenderer
+TRAM.Droid.CustomRenderer.MyEntryRenderer;crc64fdeedb4013e2c79d.MyEntryRenderer
+tram.droid.customrenderer.MyEntryRenderer;crc64fdeedb4013e2c79d.MyEntryRenderer
 AndroidX.Activity.IOnBackPressedDispatcherOwner, Xamarin.AndroidX.Activity;androidx.activity.OnBackPressedDispatcherOwner
 AndroidX.Activity.IOnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner
 androidx.activity.OnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner
@@ -1285,6 +1291,45 @@ androidx.viewpager2.widget.ViewPager2$ScrollState;androidx.viewpager2.widget.Vie
 AndroidX.ViewPager2.Adapter.IStatefulAdapter, Xamarin.AndroidX.ViewPager2;androidx.viewpager2.adapter.StatefulAdapter
 AndroidX.ViewPager2.Adapter.IStatefulAdapter;androidx.viewpager2.adapter.StatefulAdapter
 androidx.viewpager2.adapter.StatefulAdapter;androidx.viewpager2.adapter.StatefulAdapter
+Android.Support.CustomTabs.Chromium.SharedUtilities.CustomTabActivityHelper, Xamarin.Auth;crc64b5ccde371e18b5d0.CustomTabActivityHelper
+Android.Support.CustomTabs.Chromium.SharedUtilities.CustomTabActivityHelper;crc64b5ccde371e18b5d0.CustomTabActivityHelper
+android.support.customtabs.chromium.sharedutilities.CustomTabActivityHelper;crc64b5ccde371e18b5d0.CustomTabActivityHelper
+Android.Support.CustomTabs.Chromium.SharedUtilities.ServiceConnection, Xamarin.Auth;crc64b5ccde371e18b5d0.ServiceConnection
+Android.Support.CustomTabs.Chromium.SharedUtilities.ServiceConnection;crc64b5ccde371e18b5d0.ServiceConnection
+android.support.customtabs.chromium.sharedutilities.ServiceConnection;crc64b5ccde371e18b5d0.ServiceConnection
+Xamarin.Auth.FormAuthenticatorActivity, Xamarin.Auth;crc64f98dd38067c0c88b.FormAuthenticatorActivity
+Xamarin.Auth.FormAuthenticatorActivity;crc64f98dd38067c0c88b.FormAuthenticatorActivity
+xamarin.auth.FormAuthenticatorActivity;crc64f98dd38067c0c88b.FormAuthenticatorActivity
+Xamarin.Auth.FormAuthenticatorActivity+State, Xamarin.Auth;crc64f98dd38067c0c88b.FormAuthenticatorActivity_State
+Xamarin.Auth.FormAuthenticatorActivity.State;crc64f98dd38067c0c88b.FormAuthenticatorActivity_State
+xamarin.auth.FormAuthenticatorActivity_State;crc64f98dd38067c0c88b.FormAuthenticatorActivity_State
+Xamarin.Auth.WebAuthenticatorActivity, Xamarin.Auth;crc64f98dd38067c0c88b.WebAuthenticatorActivity
+Xamarin.Auth.WebAuthenticatorActivity;crc64f98dd38067c0c88b.WebAuthenticatorActivity
+xamarin.auth.WebAuthenticatorActivity;crc64f98dd38067c0c88b.WebAuthenticatorActivity
+Xamarin.Auth.WebAuthenticatorActivity+State, Xamarin.Auth;crc64f98dd38067c0c88b.WebAuthenticatorActivity_State
+Xamarin.Auth.WebAuthenticatorActivity.State;crc64f98dd38067c0c88b.WebAuthenticatorActivity_State
+xamarin.auth.WebAuthenticatorActivity_State;crc64f98dd38067c0c88b.WebAuthenticatorActivity_State
+Xamarin.Auth.WebAuthenticatorActivity+Client, Xamarin.Auth;crc64f98dd38067c0c88b.WebAuthenticatorActivity_Client
+Xamarin.Auth.WebAuthenticatorActivity.Client;crc64f98dd38067c0c88b.WebAuthenticatorActivity_Client
+xamarin.auth.WebAuthenticatorActivity_Client;crc64f98dd38067c0c88b.WebAuthenticatorActivity_Client
+Xamarin.Auth.WebViewActivity, Xamarin.Auth;crc64f98dd38067c0c88b.WebViewActivity
+Xamarin.Auth.WebViewActivity;crc64f98dd38067c0c88b.WebViewActivity
+xamarin.auth.WebViewActivity;crc64f98dd38067c0c88b.WebViewActivity
+Xamarin.Auth.WebAuthenticatorNativeBrowserActivity, Xamarin.Auth;crc64f98dd38067c0c88b.WebAuthenticatorNativeBrowserActivity
+Xamarin.Auth.WebAuthenticatorNativeBrowserActivity;crc64f98dd38067c0c88b.WebAuthenticatorNativeBrowserActivity
+xamarin.auth.WebAuthenticatorNativeBrowserActivity;crc64f98dd38067c0c88b.WebAuthenticatorNativeBrowserActivity
+Xamarin.Auth.WebAuthenticatorNativeBrowserActivity+State, Xamarin.Auth;crc64f98dd38067c0c88b.WebAuthenticatorNativeBrowserActivity_State
+Xamarin.Auth.WebAuthenticatorNativeBrowserActivity.State;crc64f98dd38067c0c88b.WebAuthenticatorNativeBrowserActivity_State
+xamarin.auth.WebAuthenticatorNativeBrowserActivity_State;crc64f98dd38067c0c88b.WebAuthenticatorNativeBrowserActivity_State
+Xamarin.Auth.CustomTabsActionsBroadcastReceiver, Xamarin.Auth;crc64f98dd38067c0c88b.CustomTabsActionsBroadcastReceiver
+Xamarin.Auth.CustomTabsActionsBroadcastReceiver;crc64f98dd38067c0c88b.CustomTabsActionsBroadcastReceiver
+xamarin.auth.CustomTabsActionsBroadcastReceiver;crc64f98dd38067c0c88b.CustomTabsActionsBroadcastReceiver
+Xamarin.Auth.AndroidAccountStore+SecretAccount, Xamarin.Auth;crc64f98dd38067c0c88b.AndroidAccountStore_SecretAccount
+Xamarin.Auth.AndroidAccountStore.SecretAccount;crc64f98dd38067c0c88b.AndroidAccountStore_SecretAccount
+xamarin.auth.AndroidAccountStore_SecretAccount;crc64f98dd38067c0c88b.AndroidAccountStore_SecretAccount
+Xamarin.Auth.XamarinForms.XamarinAndroid.AuthenticatorPageRenderer, Xamarin.Auth.XamarinForms;crc64176dbee6383d2fd5.AuthenticatorPageRenderer
+Xamarin.Auth.XamarinForms.XamarinAndroid.AuthenticatorPageRenderer;crc64176dbee6383d2fd5.AuthenticatorPageRenderer
+xamarin.auth.xamarinforms.xamarinandroid.AuthenticatorPageRenderer;crc64176dbee6383d2fd5.AuthenticatorPageRenderer
 Xamarin.Essentials.AccelerometerListener, Xamarin.Essentials;crc64a0e0a82d0db9a07d.AccelerometerListener
 Xamarin.Essentials.AccelerometerListener;crc64a0e0a82d0db9a07d.AccelerometerListener
 xamarin.essentials.AccelerometerListener;crc64a0e0a82d0db9a07d.AccelerometerListener
@@ -2311,6 +2356,63 @@ com.google.android.material.animation.TransformationCallback;com.google.android.
 Google.Common.Util.Concurrent.IListenableFuture, Xamarin.Google.Guava.ListenableFuture;com.google.common.util.concurrent.ListenableFuture
 Google.Common.Util.Concurrent.IListenableFuture;com.google.common.util.concurrent.ListenableFuture
 com.google.common.util.concurrent.ListenableFuture;com.google.common.util.concurrent.ListenableFuture
+Android.Gms.Auth.Api.Phone.ISmsCodeAutofillClientPermissionState, Xamarin.GooglePlayServices.Auth.Api.Phone;com.google.android.gms.auth.api.phone.SmsCodeAutofillClient$PermissionState
+Android.Gms.Auth.Api.Phone.ISmsCodeAutofillClientPermissionState;com.google.android.gms.auth.api.phone.SmsCodeAutofillClient$PermissionState
+com.google.android.gms.auth.api.phone.SmsCodeAutofillClient$PermissionState;com.google.android.gms.auth.api.phone.SmsCodeAutofillClient$PermissionState
+Android.Gms.Auth.Api.Phone.ISmsCodeAutofillClient, Xamarin.GooglePlayServices.Auth.Api.Phone;com.google.android.gms.auth.api.phone.SmsCodeAutofillClient
+Android.Gms.Auth.Api.Phone.ISmsCodeAutofillClient;com.google.android.gms.auth.api.phone.SmsCodeAutofillClient
+com.google.android.gms.auth.api.phone.SmsCodeAutofillClient;com.google.android.gms.auth.api.phone.SmsCodeAutofillClient
+Android.Gms.Auth.Api.Phone.ISmsCodeBrowserClient, Xamarin.GooglePlayServices.Auth.Api.Phone;com.google.android.gms.auth.api.phone.SmsCodeBrowserClient
+Android.Gms.Auth.Api.Phone.ISmsCodeBrowserClient;com.google.android.gms.auth.api.phone.SmsCodeBrowserClient
+com.google.android.gms.auth.api.phone.SmsCodeBrowserClient;com.google.android.gms.auth.api.phone.SmsCodeBrowserClient
+Android.Gms.Auth.Api.Phone.ISmsRetrieverApi, Xamarin.GooglePlayServices.Auth.Api.Phone;com.google.android.gms.auth.api.phone.SmsRetrieverApi
+Android.Gms.Auth.Api.Phone.ISmsRetrieverApi;com.google.android.gms.auth.api.phone.SmsRetrieverApi
+com.google.android.gms.auth.api.phone.SmsRetrieverApi;com.google.android.gms.auth.api.phone.SmsRetrieverApi
+Android.Gms.Auth.Account.IWorkAccountApiAddAccountResult, Xamarin.GooglePlayServices.Auth.Base;com.google.android.gms.auth.account.WorkAccountApi$AddAccountResult
+Android.Gms.Auth.Account.IWorkAccountApiAddAccountResult;com.google.android.gms.auth.account.WorkAccountApi$AddAccountResult
+com.google.android.gms.auth.account.WorkAccountApi$AddAccountResult;com.google.android.gms.auth.account.WorkAccountApi$AddAccountResult
+Android.Gms.Auth.Account.IWorkAccountApi, Xamarin.GooglePlayServices.Auth.Base;com.google.android.gms.auth.account.WorkAccountApi
+Android.Gms.Auth.Account.IWorkAccountApi;com.google.android.gms.auth.account.WorkAccountApi
+com.google.android.gms.auth.account.WorkAccountApi;com.google.android.gms.auth.account.WorkAccountApi
+Android.Gms.Auth.Api.AccountTransfer.IAuthenticatorTransferCompletionStatus, Xamarin.GooglePlayServices.Auth.Base;com.google.android.gms.auth.api.accounttransfer.AuthenticatorTransferCompletionStatus
+Android.Gms.Auth.Api.AccountTransfer.IAuthenticatorTransferCompletionStatus;com.google.android.gms.auth.api.accounttransfer.AuthenticatorTransferCompletionStatus
+com.google.android.gms.auth.api.accounttransfer.AuthenticatorTransferCompletionStatus;com.google.android.gms.auth.api.accounttransfer.AuthenticatorTransferCompletionStatus
+Android.Gms.Auth.Api.Proxy.IProxyApiProxyResult, Xamarin.GooglePlayServices.Auth.Base;com.google.android.gms.auth.api.proxy.ProxyApi$ProxyResult
+Android.Gms.Auth.Api.Proxy.IProxyApiProxyResult;com.google.android.gms.auth.api.proxy.ProxyApi$ProxyResult
+com.google.android.gms.auth.api.proxy.ProxyApi$ProxyResult;com.google.android.gms.auth.api.proxy.ProxyApi$ProxyResult
+Android.Gms.Auth.Api.Proxy.IProxyApiSpatulaHeaderResult, Xamarin.GooglePlayServices.Auth.Base;com.google.android.gms.auth.api.proxy.ProxyApi$SpatulaHeaderResult
+Android.Gms.Auth.Api.Proxy.IProxyApiSpatulaHeaderResult;com.google.android.gms.auth.api.proxy.ProxyApi$SpatulaHeaderResult
+com.google.android.gms.auth.api.proxy.ProxyApi$SpatulaHeaderResult;com.google.android.gms.auth.api.proxy.ProxyApi$SpatulaHeaderResult
+Android.Gms.Auth.Api.Proxy.IProxyApi, Xamarin.GooglePlayServices.Auth.Base;com.google.android.gms.auth.api.proxy.ProxyApi
+Android.Gms.Auth.Api.Proxy.IProxyApi;com.google.android.gms.auth.api.proxy.ProxyApi
+com.google.android.gms.auth.api.proxy.ProxyApi;com.google.android.gms.auth.api.proxy.ProxyApi
+Android.Gms.Auth.Api.Proxy.IProxyClient, Xamarin.GooglePlayServices.Auth.Base;com.google.android.gms.auth.api.proxy.ProxyClient
+Android.Gms.Auth.Api.Proxy.IProxyClient;com.google.android.gms.auth.api.proxy.ProxyClient
+com.google.android.gms.auth.api.proxy.ProxyClient;com.google.android.gms.auth.api.proxy.ProxyClient
+Android.Gms.Auth.Api.Identity.ICredentialSavingClient, Xamarin.GooglePlayServices.Auth;com.google.android.gms.auth.api.identity.CredentialSavingClient
+Android.Gms.Auth.Api.Identity.ICredentialSavingClient;com.google.android.gms.auth.api.identity.CredentialSavingClient
+com.google.android.gms.auth.api.identity.CredentialSavingClient;com.google.android.gms.auth.api.identity.CredentialSavingClient
+Android.Gms.Auth.Api.Identity.ISignInClient, Xamarin.GooglePlayServices.Auth;com.google.android.gms.auth.api.identity.SignInClient
+Android.Gms.Auth.Api.Identity.ISignInClient;com.google.android.gms.auth.api.identity.SignInClient
+com.google.android.gms.auth.api.identity.SignInClient;com.google.android.gms.auth.api.identity.SignInClient
+Android.Gms.Auth.Api.SignIn.IGoogleSignInApi, Xamarin.GooglePlayServices.Auth;com.google.android.gms.auth.api.signin.GoogleSignInApi
+Android.Gms.Auth.Api.SignIn.IGoogleSignInApi;com.google.android.gms.auth.api.signin.GoogleSignInApi
+com.google.android.gms.auth.api.signin.GoogleSignInApi;com.google.android.gms.auth.api.signin.GoogleSignInApi
+Android.Gms.Auth.Api.SignIn.Internal.IZbp, Xamarin.GooglePlayServices.Auth;com.google.android.gms.auth.api.signin.internal.zbp
+Android.Gms.Auth.Api.SignIn.Internal.IZbp;com.google.android.gms.auth.api.signin.internal.zbp
+com.google.android.gms.auth.api.signin.internal.zbp;com.google.android.gms.auth.api.signin.internal.zbp
+Android.Gms.Auth.Api.SignIn.Internal.IZbr, Xamarin.GooglePlayServices.Auth;com.google.android.gms.auth.api.signin.internal.zbr
+Android.Gms.Auth.Api.SignIn.Internal.IZbr;com.google.android.gms.auth.api.signin.internal.zbr
+com.google.android.gms.auth.api.signin.internal.zbr;com.google.android.gms.auth.api.signin.internal.zbr
+Android.Gms.Auth.Api.Credentials.CredentialPickerConfig+IPrompt, Xamarin.GooglePlayServices.Auth;com.google.android.gms.auth.api.credentials.CredentialPickerConfig$Prompt
+Android.Gms.Auth.Api.Credentials.CredentialPickerConfig.IPrompt;com.google.android.gms.auth.api.credentials.CredentialPickerConfig$Prompt
+com.google.android.gms.auth.api.credentials.CredentialPickerConfig$Prompt;com.google.android.gms.auth.api.credentials.CredentialPickerConfig$Prompt
+Android.Gms.Auth.Api.Credentials.ICredentialRequestResult, Xamarin.GooglePlayServices.Auth;com.google.android.gms.auth.api.credentials.CredentialRequestResult
+Android.Gms.Auth.Api.Credentials.ICredentialRequestResult;com.google.android.gms.auth.api.credentials.CredentialRequestResult
+com.google.android.gms.auth.api.credentials.CredentialRequestResult;com.google.android.gms.auth.api.credentials.CredentialRequestResult
+Android.Gms.Auth.Api.Credentials.ICredentialsApi, Xamarin.GooglePlayServices.Auth;com.google.android.gms.auth.api.credentials.CredentialsApi
+Android.Gms.Auth.Api.Credentials.ICredentialsApi;com.google.android.gms.auth.api.credentials.CredentialsApi
+com.google.android.gms.auth.api.credentials.CredentialsApi;com.google.android.gms.auth.api.credentials.CredentialsApi
 Android.Gms.Auth.Api.SignIn.IGoogleSignInOptionsExtension, Xamarin.GooglePlayServices.Base;com.google.android.gms.auth.api.signin.GoogleSignInOptionsExtension
 Android.Gms.Auth.Api.SignIn.IGoogleSignInOptionsExtension;com.google.android.gms.auth.api.signin.GoogleSignInOptionsExtension
 com.google.android.gms.auth.api.signin.GoogleSignInOptionsExtension;com.google.android.gms.auth.api.signin.GoogleSignInOptionsExtension

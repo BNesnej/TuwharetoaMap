@@ -1,50 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:TRAM.CustomeRenderer"
              x:Class="TRAM.Pages.Login"
              >
-    <!--<ContentPage.Content>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="200"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="2*"/>
-                <ColumnDefinition Width="2*"/>
-                <ColumnDefinition Width="2*"/>
-            </Grid.ColumnDefinitions>
-            
-            <ContentView Grid.Row="0" Grid.ColumnSpan="3" HorizontalOptions="Center" VerticalOptions="End">
-                <StackLayout>
-                    <Image Source="tuwharetoa.png" HeightRequest="80"/>
-                    <Label Text="Log in" FontSize="56" TextColor="White"/>
-                </StackLayout>
-
-            </ContentView>
-
-            <ContentView Grid.Row="1" Grid.ColumnSpan="3" VerticalOptions="Center">
-                <StackLayout>
-                    <Label Text="Username/Email" TextColor="White" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="24"/>
-                    <Entry x:Name="Email" Text="{Binding Email}" HorizontalTextAlignment="Center" Placeholder="Enter Username/Email Here"/>
-                     
-                    <Label Text="Password" TextColor="White" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="24"/>
-                    <Entry x:Name="Password" Text="{Binding Password}" IsPassword="True" HorizontalTextAlignment="Center" Placeholder="Enter Password Here"/>
-
-                    <Button HorizontalOptions="Center" WidthRequest="150" Text="Log in" BackgroundColor="#00C2BB" Clicked="Button_Clicked"/>
-                </StackLayout>
-            </ContentView>
-
-            <ContentView Grid.Row="2" Grid.ColumnSpan="3" VerticalOptions="End" Margin="0,20">
-                <StackLayout>
-                    <Label Text="Haven't got an account?" HorizontalTextAlignment="Center" FontSize="16"/>
-                    <Button HorizontalOptions="Center" WidthRequest="150" Text="Log in as Guest" BackgroundColor="#00C2BB" Clicked="GuestLogin_Clicked"/>
-                </StackLayout>
-            </ContentView>
-        </Grid>
-    </ContentPage.Content>-->
-
+    
     <StackLayout Padding="0">
 
         <Grid>
@@ -55,7 +14,7 @@
             </StackLayout>
             <StackLayout Margin="15,140,15,0">
 
-                <Frame BackgroundColor="White" HasShadow="True" HeightRequest="380" HorizontalOptions="FillAndExpand">
+                <Frame BackgroundColor="White" HasShadow="True" HeightRequest="450" HorizontalOptions="FillAndExpand">
                     <StackLayout>
                         <StackLayout HorizontalOptions="CenterAndExpand">
                             <Label Text="Sign In" TextColor="Black" FontSize="Medium" FontAttributes="Bold" />
@@ -68,7 +27,7 @@
 
                                     </Frame>
 
-                                    <Entry x:Name="Email" Text="{Binding Email}" HorizontalOptions="FillAndExpand" Placeholder="Email" Margin="0,0,15,0"/>
+                                    <local:MyCustomEntry x:Name="Email" HorizontalOptions="FillAndExpand" Placeholder="Email" Margin="0,0,15,0"/>
                                 </StackLayout>
                             </Frame>
                             <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Margin="0,20,0,0" Padding="0" CornerRadius="10" HorizontalOptions="FillAndExpand">
@@ -77,7 +36,8 @@
 
                                     </Frame>
 
-                                    <Entry x:Name="Password" IsPassword="True" Text="{Binding Password}" HorizontalOptions="FillAndExpand" Placeholder="Password" Margin="0,0,15,0"/>
+                                    <local:MyCustomEntry x:Name="Password" IsPassword="True" HorizontalOptions="FillAndExpand" Placeholder="Password" Margin="0,0,15,0"/>
+                                     
                                 </StackLayout>
                             </Frame>
                         </StackLayout>
@@ -89,7 +49,7 @@
                             <Label Text="Forgot Password" HorizontalTextAlignment="End" TextColor="#00c2bb" HorizontalOptions="EndAndExpand" FontAttributes="Bold" VerticalTextAlignment="Center"/>
                             
                         </StackLayout>
-                        <Button Text="SIGN IN" BackgroundColor="#00c2bb" TextColor="White" FontAttributes="Bold" CornerRadius="10" />
+                        <Button x:Name="SignInBtn" Text="SIGN IN" BackgroundColor="#00c2bb" TextColor="White" FontAttributes="Bold" CornerRadius="10" Clicked="SignInBtn_Clicked"/>
 
                         <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                             <Label Text="Still Not Connected ? " HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
@@ -97,7 +57,30 @@
                             <Label Text="Sign Up" HorizontalTextAlignment="Center" TextColor="#00c2bb" FontAttributes="Bold" VerticalTextAlignment="Center"/>
 
                         </StackLayout>
+
+                        <StackLayout>
+                            <Grid Padding="0">
+                                <BoxView BackgroundColor="DarkGray" HeightRequest="1" Margin="50" HorizontalOptions="CenterAndExpand" WidthRequest="100"/>
+                                <Frame BackgroundColor="White" WidthRequest="50" Padding="0" Margin="0" HeightRequest="50" CornerRadius="30" HasShadow="False" BorderColor="DarkGray" VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+                                    <Label Text="OR" TextColor="DarkGray" FontSize="Small" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                                </Frame>    
+                            </Grid>
+
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                                <Frame BackgroundColor="White" WidthRequest="50" Padding="0" Margin="0" HeightRequest="50" CornerRadius="20" HasShadow="False">
+                                    <ImageButton x:Name="GoogleLoginBtn" Source="GOOGLE.png" Aspect="AspectFill" Margin="0" Clicked="GoogleLoginBtn_Clicked" />
+                                </Frame>
+
+                                <Frame BackgroundColor="White" WidthRequest="50" Padding="0" Margin="0" HeightRequest="50" CornerRadius="50" HasShadow="False">
+                                    <ImageButton x:Name="FBLoginBtn" Source="FB.png" Aspect="AspectFill" HeightRequest="50" Margin="0" />
+                                </Frame>
+                            </StackLayout>
+
+                        </StackLayout>
+
+                        
                     </StackLayout>
+                    
                 </Frame>
                 
             </StackLayout>
